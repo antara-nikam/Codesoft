@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f7f7f7;
+  color: #333;
+}
+
+/* Header */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: white;
+}
+
+.top-bar nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+/* Split Section */
+.split {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 40px;
+}
+
+.text {
+  width: 50%;
+}
+
+.text h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.text p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+button {
+  padding: 10px 25px;
+  border: none;
+  background: #333;
+  color: white;
+  cursor: pointer;
+}
+
+/* Decorative Boxes */
+.box-area {
+  display: flex;
+  gap: 15px;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  background: #333;
+}
+
+.box.light {
+  background: #aaa;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+}
